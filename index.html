@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Estimate your income tax and see exactly how it is calculated.">
+<title>TaxEase</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23007AFF'/%3E%3Cpath d='M9 11h14M16 11v12' stroke='%23fff' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="bar"><div class="wrap"><a class="brand" href="./">TaxEase</a><span class="fy">FY 2026–27</span></div></header>
+<main class="wrap">
+  <h1>Estimate your income tax</h1>
+  <p class="lede">Enter your income, deductions and investments. See what you owe under each regime and how every rupee is worked out.</p>
+  <div class="layout">
+    <form id="f" novalidate autocomplete="off"></form>
+    <aside id="out" aria-live="polite"></aside>
+  </div>
+</main>
+<footer class="wrap">Estimates for resident individuals under 60. Surcharge marginal relief, capital gains and special rates are not modelled. Confirm figures with the Income Tax Department or a chartered accountant before filing.</footer>
+<noscript><p class="wrap">TaxEase needs JavaScript to calculate your estimate.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>
